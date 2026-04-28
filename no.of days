@@ -1,0 +1,5 @@
+from datetime import date
+a=date(2006,2,3)
+today = date.today()
+days_lived = (today - a).days
+print("no.of days lived: ", days_lived)
